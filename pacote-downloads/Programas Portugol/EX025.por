@@ -1,0 +1,84 @@
+programa/* Programa para colocar os 3 valores digitados em ordem.
+*/
+{
+	
+	funcao inicio()
+	{
+		escreva("\n---------------------------------------------")
+		escreva("\n          TRÊS VALORES EM ORDEM              ") 
+		escreva("\n---------------------------------------------")
+
+		inteiro n1, n2, n3
+		inteiro maior, meio, menor
+		
+		escreva("\nPrimeiro valor: ")
+		leia(n1)
+		escreva("Segundo valor: ")
+		leia(n2)
+		escreva("Terceiro valor: ")
+		leia(n3)
+		escreva("---------------------------------------------")
+
+		se (n1 > n2) {
+			se (n3 > n1) {
+				maior = n3
+				meio = n1
+				menor = n2
+			}
+			senao se (n2 > n3) {
+				maior = n1
+				meio = n2
+				menor = n3
+			}
+			senao {
+				maior = n1
+				meio = n3
+				menor = n2
+				
+			}
+		} senao se  (n3 > n2) {
+			maior = n3
+			meio = n2
+			menor = n1
+		} senao se (n3 > n1) {
+			maior = n2
+			meio =  n3
+			menor = n1
+		} senao {
+			maior = n2
+			meio = n1
+			menor = n3
+		
+			
+		}
+		escreva("\nResultados: \n")
+		escreva("Menor: \t\t" + menor)
+		escreva("\nIntermediário:  " + meio)
+		escreva("\nMaior : \t" + maior)
+		
+			
+			
+		
+
+		
+
+ 		
+ 		 
+		
+		
+
+
+		
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 1027; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
