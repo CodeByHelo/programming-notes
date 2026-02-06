@@ -2,9 +2,9 @@
 
 ## Linguagens
 
-- [Lógica de Programação](logica de programacao/)
+- [Lógica de Programação](logica%20de%20programacao/)
 - [Java](java/)
-- [C](linguagem-c/)
+- [C](linguagem%20c/)
 
 
 ## Objetivo
